@@ -7,7 +7,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment
-  namespace: example
+  namespace: Javier_Santos
   labels:
     app: nginx
 spec:
