@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: javier-santos
+  name: example
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment
-  namespace: javier-santos
+  namespace: example
   labels:
     app: nginx
 spec:
